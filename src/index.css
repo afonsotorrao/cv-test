@@ -1,0 +1,234 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h4 {
+  margin:0;
+  padding:0
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+h2, h3 {
+  text-align: center;
+  margin:1%;
+  padding:1%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea {
+  font-size: 16px
+}
+
+.header h2 {
+  margin: 2.5% 0%;
+}
+
+.infoDiv, .experienceHidden {
+  background-color:#e1e1e1;
+  width:80%;
+  margin-bottom:5%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:0.5em;
+  padding-bottom:2%;
+}
+
+.infoDiv form {
+  display:grid;
+  grid-template-rows:auto;
+  font-size:14px;
+  padding: 0% 5% 2.5% 5%;
+}
+
+.infoDiv label {
+  margin: 2% 2% 1% 1%;
+}
+
+.infoDiv input {
+  border: transparent;
+  border-radius: 0.5em;
+  background-color: #f9f9f9;
+  padding:1%;
+}
+
+.infoDiv button {
+  margin-top:4%;
+  width:30%;
+  margin-left:auto
+}
+
+#root {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width:100vw;
+  height:100vh
+}
+
+.detailsPage {
+  display:flex;
+  flex-direction:column;
+}
+
+.cvPage {
+  display:grid;
+  grid-template-rows: 5% 95%;
+  background-color: #e2e2e2;
+}
+
+.title-preview, .description-preview {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.description-preview, .skillDiv {
+  overflow-wrap: break-word;
+  margin-top: 2%;
+}
+
+.skillDiv {
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.skillDiv p {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.title-preview {
+  display:flex;
+  justify-content:space-between;
+  margin-top: 2.2%;
+}
+
+
+.page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  margin-top:5%;
+  width:21cm;
+  height:29.7cm;
+}
+
+.cv-name {
+  display:flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.cv-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1% 3%;
+  overflow:hidden;
+  font-size:18px;
+  font-weight:bold
+}
+
+.header-division {
+  height:0.5%;
+  margin:0.5%;
+  background-color: black;
+}
+
+.headerImg {
+  aspect-ratio: 1/1;
+  width:35px;
+  margin-right:5px
+}
+
+.headerDiv {
+  display:flex;
+  align-items:center;
+}
+
+.title {
+  margin-top: 2.5%;
+}
+
+.download {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.download button {
+  width: 30%;
+}
+
